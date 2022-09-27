@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
 body{
   margin: 0;
+  font-family: 'Kalam', cursive;
 }
 
 :root{
@@ -66,7 +70,7 @@ footer{
   padding: 1rem 1rem;
   background-color: #FFD55E;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 5rem;
   height: 20vh;
 }
 
