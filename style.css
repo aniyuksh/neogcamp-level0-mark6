@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+}
+
+:root{
+  --primary-color : #FFD55E;
+}
+
+/* Navigation */
+nav{
+  padding: 1rem 1rem;
+  background-color: #FFD55E;
+  text-align: center;
+
+}
+
+/* Input Area */
+.input-area{
+  height: 10vh;
+  padding-top: 5rem;
+}
+
+.input-area #text-input{
+  display: block;
+  margin: auto;
+  min-width: 30rem;
+  min-height: 3rem;
+  
+}
+
+/* Button */
+
+.button{
+  /* margin-top: 2rem; */
+  height: 7vh;
+  padding-top:1.5rem;
+  
+}
+
+.button #btn-translate{
+  margin: auto;
+  display: block;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: .5rem;
+}
+
+/* Line */
+.line{
+  font-size: large;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Output Area */
+#text-output{
+  border: 1px solid black;
+  height: 7vh;
+  max-width: 30rem;
+  margin: auto;
+  
+}
+
+/* Footer */
+footer{
+  padding: 1rem 1rem;
+  background-color: #FFD55E;
+  text-align: center;
+  margin-top: 6rem;
+  height: 20vh;
+}
+
+small{
+  text-align: center;
+  font-weight: bolder;
+}
